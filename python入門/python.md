@@ -352,7 +352,7 @@ Plot 'plots/step3/electrostatic_energy.svg' was saved.
 
 |回転数|充電電圧|静電エネルギー|
 |---|---|---|
-|![rotational_speed](\images\step3\rotational_speed.svg)|![charging_voltage](\images\step3\charging_voltage.svg)|![electrostatic_energy](\images\step3\electrostatic_energy.svg)|
+|![rotational_speed](images/step3/rotational_speed.svg)|![charging_voltage](images/step3/charging_voltage.svg)|![electrostatic_energy](images/step3/electrostatic_energy.svg)|
 
 
 **2. 複数CSVデータの比較グラフ作成**
@@ -414,17 +414,17 @@ plt.close()
 Plot 'plots/step3/torque.svg' was saved.
 ```
 
-![torque](\images\step3\torque.svg)
+![torque](images/step3/torque.svg)
 
 #### 演習問題
 **1. グラフの整形**
 現在の設定では軸の範囲が自動的に決まっていますが、`plt.xlim()`と`plt.ylim()`を使って、横軸と縦軸の範囲を手動で設定してみてください。たとえば、横軸は0から6秒、縦軸は0から8の範囲に設定します。また、メモリの数値もキリがいいような数値に設定してください。
 
-![torque](\images\step3\torque2.svg)
+![torque](images/step3/torque2.svg)
 
 **2. 分析結果のグラフ化**
 ステップ2で作成した集計結果（`result.csv`）を使って、各Nに対する`ChargingVoltage_C_at_Stop`の値をグラフで可視化してください。横軸にN、縦軸に充電電圧をとります。
-![charging_voltage_comp](\images\step3\charging_voltage_comp.svg)
+![charging_voltage_comp](images/step3/charging_voltage_comp.svg)
 
 ---
 
@@ -472,7 +472,7 @@ plt.close()
 Data was loaded successfully.
 Pie chart 'plots/step4/energy_pie_chart.svg' was saved.
 ```
-![energy_pie_chart](\images\step4\energy_pie_chart.svg)
+![energy_pie_chart](images/step4/energy_pie_chart.svg)
 上記のコードを実行すると、`plots`フォルダ内に`energy_pie_chart.svg`というファイルが作成されます。このグラフは、各項目がエネルギー全体に占める割合をパーセンテージで示し、中心には初期エネルギーの値が表示されます。
 
 これにより、エネルギーがどのように配分されているかを直感的に理解できます。
@@ -481,4 +481,4 @@ Pie chart 'plots/step4/energy_pie_chart.svg' was saved.
 **1. グラフの整形**
 先ほど作ったグラフは1. `開始地点が真上ではない` 2. `項目の順番が逆` となってしまっています。また、中央を白くくりぬいて初期エネルギーを表示しましょう。
 
-![energy_pie_chart2](\images\step4\energy_pie_chart2.svg)
+![energy_pie_chart2](images\step4\energy_pie_chart2.svg)
