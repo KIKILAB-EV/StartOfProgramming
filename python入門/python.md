@@ -483,4 +483,4 @@ Pie chart 'plots/step4/energy_pie_chart.svg' was saved.
 **1. グラフの整形**
 先ほど作ったグラフは1. `開始地点が真上ではない` 2. `項目の順番が逆` となってしまっています。また、中央を白くくりぬいて初期エネルギーを表示しましょう。
 
-![energy_pie_chart2](images\step4\energy_pie_chart2.svg)
+![energy_pie_chart2](images/step4/energy_pie_chart2.svg)
