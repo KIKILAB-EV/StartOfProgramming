@@ -424,6 +424,7 @@ Plot 'plots/step3/torque.svg' was saved.
 
 **2. 分析結果のグラフ化**
 ステップ2で作成した集計結果（`result.csv`）を使って、各Nに対する`ChargingVoltage_C_at_Stop`の値をグラフで可視化してください。横軸にN、縦軸に充電電圧をとります。
+
 ![charging_voltage_comp](images/step3/charging_voltage_comp.svg)
 
 ---
@@ -472,6 +473,7 @@ plt.close()
 Data was loaded successfully.
 Pie chart 'plots/step4/energy_pie_chart.svg' was saved.
 ```
+
 ![energy_pie_chart](images/step4/energy_pie_chart.svg)
 上記のコードを実行すると、`plots`フォルダ内に`energy_pie_chart.svg`というファイルが作成されます。このグラフは、各項目がエネルギー全体に占める割合をパーセンテージで示し、中心には初期エネルギーの値が表示されます。
 
