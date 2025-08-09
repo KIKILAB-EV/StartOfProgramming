@@ -123,8 +123,6 @@ $ E = \frac{1}{2} C V^2 $
 
 今回はコンデンサの容量を $C=0.0556$ Fと設定します。`original.csv`の`ChargingVoltage_C`列が電圧$V$にあたります。
 
-以下のコードを記述し、`calcEnergy.py`というファイル名で保存してください。
-
 ```Python
 import pandas as pd
 
@@ -194,7 +192,7 @@ DataFrame was saved to 'csv/step1/calculated_energy.csv'.
 これらの値を、Pandasの`DataFrame`を使って集計し、最終的に1つのCSVファイルに保存します。
 
 **2. Pythonスクリプトの作成**
-以下のコードを記述し、csv/chapter4_analysis.pyというファイル名で保存してください。このスクリプトは、指定された3つのファイルを順番に処理し、上記で定義した値を抽出・集計します。
+このスクリプトは、指定された3つのファイルを順番に処理し、上記で定義した値を抽出・集計します。
 
 注： このコードを実行する前に、csv/step2/trimmed_1000.csv、csv/step2/trimmed_2000.csv、csv/step2/trimmed_3000.csvの3つのファイルが所定の場所に存在している必要があります。
 
